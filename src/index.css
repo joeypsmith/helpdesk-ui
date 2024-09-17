@@ -1,0 +1,106 @@
+  * {
+  font-family: Consolas, monospace;
+   background-color: black;
+}
+
+.public {
+  color:whitesmoke;
+}
+
+.public header {
+  font-size: 35px;
+  position: fixed;
+  top: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.public div {
+  position: fixed;
+  text-align: center;
+  display: grid;
+  width: 100%;
+  bottom: 20px;
+}
+
+.login {
+  color: whitesmoke;
+}
+
+.login header {
+  font-size: 35px;
+  position: fixed;
+  top: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.dash {
+  color: whitesmoke;
+}
+
+.dash-title {
+  font-size: 24px;
+  text-align: center;
+}
+
+.dash button {
+  color: whitesmoke;
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  border: none;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.dash button:hover {
+  color: grey;
+}
+
+.dash nav {
+  display: flex;
+  justify-content: center;
+}
+
+.dash footer {
+  position: fixed;
+  bottom: 10px;
+}
+
+.dash div {
+  border-radius: 10px;
+  border-color: whitesmoke;
+}
+
+.welcome {
+  min-height: 100vh;
+}
+
+
+.tickets {
+
+}
+
+.users {
+  
+}
+
+a {text-decoration: none;}
+a:visited { text-decoration: none; color:whitesmoke; }
+a:hover { text-decoration: none; color:grey; }
+a:focus { text-decoration: none; color:whitesmoke; }
+a:hover, a:active { text-decoration: none; color:darkgrey }
+
+
+.auth_button {
+  color: whitesmoke;
+  size: "xs";
+}
+
+.auth_button:hover,
+.auth_button:focus-visible {
+  color: grey;
+}
